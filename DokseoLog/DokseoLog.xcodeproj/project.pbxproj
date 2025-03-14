@@ -39,6 +39,7 @@
 		227AFB382B7273A600E72F8B /* DLAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227AFB322B726EEC00E72F8B /* DLAlertViewController.swift */; };
 		227AFB3B2B7278E700E72F8B /* UIViewController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227AFB3A2B7278E700E72F8B /* UIViewController+.swift */; };
 		2281FED82B8DEC38006EE32E /* DLFloatingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2281FED72B8DEC38006EE32E /* DLFloatingButton.swift */; };
+		2284A2FE2D84512E0065ED9A /* String+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2284A2FD2D84512E0065ED9A /* String+.swift */; };
 		22861CDF2B6380590080BBA7 /* DLLoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22861CDE2B6380590080BBA7 /* DLLoadingViewController.swift */; };
 		22919CEE2B88DC6C00AD609B /* ModifyRecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22919CED2B88DC6B00AD609B /* ModifyRecordViewController.swift */; };
 		22990C062A6EBF83001CF1B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22990C052A6EBF83001CF1B3 /* AppDelegate.swift */; };
@@ -110,6 +111,7 @@
 		227AFB352B72707800E72F8B /* DLAlertContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DLAlertContainerView.swift; sourceTree = "<group>"; };
 		227AFB3A2B7278E700E72F8B /* UIViewController+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+.swift"; sourceTree = "<group>"; };
 		2281FED72B8DEC38006EE32E /* DLFloatingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DLFloatingButton.swift; sourceTree = "<group>"; };
+		2284A2FD2D84512E0065ED9A /* String+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+.swift"; sourceTree = "<group>"; };
 		22861CDE2B6380590080BBA7 /* DLLoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DLLoadingViewController.swift; sourceTree = "<group>"; };
 		22919CED2B88DC6B00AD609B /* ModifyRecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifyRecordViewController.swift; sourceTree = "<group>"; };
 		22990C022A6EBF83001CF1B3 /* DokseoLog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DokseoLog.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -309,6 +311,7 @@
 				22483FB42AFD2E4D00942237 /* UIView+.swift */,
 				227AFB3A2B7278E700E72F8B /* UIViewController+.swift */,
 				2260764C2B878B3F000550F8 /* Date+.swift */,
+				2284A2FD2D84512E0065ED9A /* String+.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -542,6 +545,7 @@
 				22919CEE2B88DC6C00AD609B /* ModifyRecordViewController.swift in Sources */,
 				227A231A2A8611BA00BE461E /* DokseoLog.xcdatamodeld in Sources */,
 				22D2E5B72B85E08000ED0455 /* AddRecordViewController.swift in Sources */,
+				2284A2FE2D84512E0065ED9A /* String+.swift in Sources */,
 				22D2E5AF2B85D20300ED0455 /* SentenceViewController.swift in Sources */,
 				22D2E5B52B85DAFE00ED0455 /* ThoughtTableViewCell.swift in Sources */,
 				22EBE5512B74B0150024D620 /* SeriesInfo.swift in Sources */,
