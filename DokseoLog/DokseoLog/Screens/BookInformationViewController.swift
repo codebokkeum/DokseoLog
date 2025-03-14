@@ -87,7 +87,7 @@ class BookInformationViewController: UIViewController {
   private func setupUI() {
     titleLabel.text = book.title
     authorLabel.text = book.author
-    descriptionLabel.text = (book.description.count == 0) ? "내용이 없습니다." : (book.description)
+    descriptionLabel.text = (book.description.count == 0) ? "내용이 없습니다." : (book.description.htmlDecoded)
     descriptionLabel.adjustsFontSizeToFitWidth = false
     descriptionLabel.numberOfLines = 0
     descriptionPlaceholderLabel.text = "책소개"
