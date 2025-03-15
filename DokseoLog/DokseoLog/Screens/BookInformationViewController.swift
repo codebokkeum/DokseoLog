@@ -235,7 +235,9 @@ class BookInformationViewController: UIViewController {
       var style = ToastStyle()
       style.messageFont = UIFont(name: Fonts.HanSansNeo.medium.description, size: 16)!
       style.backgroundColor = .systemGreen
-      view.makeToast("내 책장으로 옮겼어요.", duration: 1, position: .center, style: style)
+      view.makeToast("내 책장으로 옮겼어요.", duration: 1, position: .center, style: style) { _ in
+        self.navigationController?.popViewController(animated: true)
+      }
     case .failure(let error):
       presentDLAlert(title: "책장으로 이동할 수 없어요.", message: error.description, buttonTitle: "확인")
     }
