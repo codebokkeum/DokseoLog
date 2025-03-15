@@ -87,7 +87,7 @@ class BookInformationViewController: UIViewController {
   private func setupUI() {
     titleLabel.text = book.title
     authorLabel.text = book.author
-    descriptionLabel.text = (book.description.count == 0) ? "내용이 없습니다." : (book.description)
+    descriptionLabel.text = (book.description.count == 0) ? "내용이 없습니다." : (book.description.htmlDecoded)
     descriptionLabel.adjustsFontSizeToFitWidth = false
     descriptionLabel.numberOfLines = 0
     descriptionPlaceholderLabel.text = "책소개"
@@ -200,9 +200,7 @@ class BookInformationViewController: UIViewController {
       var style = ToastStyle()
       style.messageFont = UIFont(name: Fonts.HanSansNeo.medium.description, size: 16)!
       style.backgroundColor = .systemGreen
-      view.makeToast("위시리스트에 추가했어요.", duration: 1, position: .center, style: style) { _ in
-        self.navigationController?.popViewController(animated: true)
-      }
+      view.makeToast("위시리스트에 추가했어요.", duration: 1, position: .center, style: style)
     } catch (let error) {
       let dlError = error as? DLError
       var style = ToastStyle()
@@ -219,9 +217,7 @@ class BookInformationViewController: UIViewController {
       var style = ToastStyle()
       style.messageFont = UIFont(name: Fonts.HanSansNeo.medium.description, size: 16)!
       style.backgroundColor = .systemGreen
-      view.makeToast("내 책장에 추가했어요.", duration: 1, position: .center, style: style) { _ in
-        self.navigationController?.popViewController(animated: true)
-      }
+      view.makeToast("내 책장에 추가했어요.", duration: 1, position: .center, style: style)
     } catch (let error) {
       let dlError = error as? DLError
       var style = ToastStyle()
