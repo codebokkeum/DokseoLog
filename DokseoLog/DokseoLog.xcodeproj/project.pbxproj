@@ -120,7 +120,6 @@
 		22990C0F2A6EBF84001CF1B3 /* Bookie.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Bookie.xcdatamodel; sourceTree = "<group>"; };
 		22990C112A6EBF8B001CF1B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22990C142A6EBF8B001CF1B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		22BA18F92D60B9EC009AD472 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		22BA18FD2D60BE21009AD472 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		22BF43F12A6F6D3600AF167C /* DokseoLog.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DokseoLog.entitlements; sourceTree = "<group>"; };
 		22C1EBAC2AEA462700E4477A /* SpoqaHanSansNeo-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SpoqaHanSansNeo-Medium.ttf"; sourceTree = "<group>"; };
@@ -285,7 +284,6 @@
 		227A23172A860D2500BE461E /* Support */ = {
 			isa = PBXGroup;
 			children = (
-				22BA18F92D60B9EC009AD472 /* GoogleService-Info.plist */,
 				225C80FF2BA0C2790002B866 /* Secrets.xcconfig */,
 				225C80F82BA0ABF00002B866 /* GoogleService-Info.plist */,
 				2266AB9D2B9AC323003CADD0 /* appicon.png */,
