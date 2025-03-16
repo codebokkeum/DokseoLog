@@ -1,7 +1,7 @@
 ---
 name: Bug report
 about: 버그 수정시 사용하는 템플릿
-title: ''
+title: '[Bug]'
 labels: "\U0001F41B bug"
 assignees: codebokkeum
 
