@@ -1,9 +1,9 @@
 ---
 name: Feature
 about: 새로운 기능 혹은 화면의 추가에 대한 이슈 템플릿
-title: ''
+title: '[Feature]'
 labels: '✨ feature'
-assignees: ''
+assignees: 'codebokkeum'
 
 ---
 
